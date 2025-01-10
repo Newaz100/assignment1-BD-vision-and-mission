@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 .primary-btn{
     border-radius: 8px;
     background: rgb(0, 106, 80);
@@ -114,10 +115,193 @@
 }
 .card-description{
     color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
+
+.vision-container{
+    padding: 20px  80px;
+
+}
+.vision-part{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.vision-h{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 26px;
+    text-align: left;
+}
+.vision-card{
+    display: flex;
+    gap: 26px; 
+}
+
+/* card1 */
+
+.card1{
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.card1 .title-card{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    }
+.card1 .description-part{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.card1 .btn{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 10px;
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+}
+
+
+/* card2 */
+.card2{
+    padding: 20px;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.card2 .title-card{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    }
+.card2 .description-part{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.card2 .btn{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    padding: 10px;
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+}
+
+
+/* card3 */
+.card3{
+    padding: 20px;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    
+}
+
+.card3 .title-card{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    }
+.card3 .description-part{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.card3 .btn{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    padding: 10px;
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+}
+
+.section-quote{
+    padding: 40px  80px;
+}
+.quote-section{
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url(../assets/quote-bg.png);
+    background-position: 25px 20px;
+    background-repeat: no-repeat;
+    
+}
+
+.opinion-head{
+    padding: 40px 80px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+.table-area{
+    padding: 40px  80px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
