@@ -199,6 +199,7 @@
     border-radius: 8px;
     background: rgb(84, 144, 245);
     padding: 10px;
+    cursor: pointer;
     margin-top: 16px;
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
@@ -206,6 +207,9 @@
     font-weight: 600;
     line-height: 19px;
     text-align: left;
+}
+.card1 .btn:hover{
+    background: rgb(43, 82, 150);
 }
 
 
@@ -239,6 +243,7 @@
     border-radius: 8px;
     background: rgb(9, 161, 92);
     padding: 10px;
+    cursor: pointer;
     margin-top: 16px;
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
@@ -246,6 +251,9 @@
     font-weight: 600;
     line-height: 19px;
     text-align: left;
+}
+.card2 .btn:hover{
+    background: rgb(6, 111, 43);
 }
 
 
@@ -280,6 +288,7 @@
     border-radius: 8px;
     background: rgb(255, 194, 57);
     padding: 10px;
+    cursor: pointer;
     margin-top: 16px;
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
@@ -287,6 +296,9 @@
     font-weight: 600;
     line-height: 19px;
     text-align: left;
+}
+.card3 .btn:hover{
+    background: rgb(192, 172, 17);
 }
 
 .section-quote{
