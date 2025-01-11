@@ -9,6 +9,20 @@
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    padding: 17px 34px;
+}
+
+.primary-btn:hover{
+    border-radius: 8px;
+    background: rgb(29, 143, 61);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    cursor: pointer;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
@@ -298,10 +312,111 @@
     line-height: 24px;
     text-align: left;
 }
-.table-area{
-    padding: 40px  80px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
+.table-section{
+    border-radius: 24px;
+    background: rgb(238, 238, 238);
+    margin: 0px 80px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
 }
+
+.survey-table-container{
+    background: rgb(238, 238, 238);
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.survey-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 22px;
+    font-family: fira sans;
+    text-align: left;
+}
+
+.survey-table th, .survey-table td {
+    border: 1px solid #c6c3c3;
+    padding: 12px;
+}
+
+.survey-table th {
+    background-color: #d9f0d5;
+    color: #333;
+}
+
+
+
+.survey-table select {
+    width: 100%;
+    padding: 6px;
+    font-size: 16px;
+    background-color:  #d9f0d5;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.survey-table select:hover {
+    width: 100%;
+    padding: 6px;
+    font-size: 16px;
+    background-color:  #7ce06a;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* first news section start */
+
+.news-section{
+    border-radius: 24px;
+    background: rgb(234, 240, 237);
+    margin: 40px 80px;
+    padding: 40px;
+}
+.news-section h1{
+    font-family: fira sans;
+    font-size: 36px;
+}
+.news-section p{
+    font-family: fira sans;
+    font-size: 20px;
+}
+.news-desc{
+    border-radius: 24px;
+    background: rgb(234, 240, 237);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.news-section p{
+    font-family: fira sans;
+    font-size: 20px;
+}
+.news-img{
+    margin-right: 20px;
+    border-radius: 35px;
+    
+}
+.news-desc h1{
+    font-family: fira sans;
+    font-size: 36px;
+}
+.des{
+    margin-left: 30px;
+}
+
+/* first news section end */
+
+/* second news section start */
+.descr{
+    padding-left: 0%;
+}
+/* second news section end */
+
 
